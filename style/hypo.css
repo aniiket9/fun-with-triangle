@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root{
+    --primary-color: #2dd4bf ;
+    --dark-grey: #404040;
+    --off-white: #e2e8f0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+
+}
+.navigation{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: var(--primary-color) ;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .nav-pills{
+    text-align: right; 
+}
+.navigation .link{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    
+}
+
+input{
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+
+}
+button{
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#output{
+    font-weight: bolder;
+}
